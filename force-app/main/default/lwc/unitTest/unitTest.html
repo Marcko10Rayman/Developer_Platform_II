@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 04-24-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card title="Unit Status" icon-name="standard:bot">
+        <lightning-input
+        label="Unit Number"
+        value={unitNumber}
+        onchange={handleChange} >
+      </lightning-input>
+      <div class="slds-m-around_medium">
+        Unit {unitNumber} alive!
+      </div>
+    </lightning-card>
+  </template>

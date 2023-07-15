@@ -3,5 +3,10 @@
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.sfdx": true
-  }
+  },
+  "salesforcedx-vscode-apex.java.home": "C:\\\\Program Files\\\\Java\\\\jdk-17.0.4",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+  "SFDoc.username": "Marco Antonio Cruz Barboza"
 }
